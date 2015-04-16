@@ -17,6 +17,7 @@
 @property (nonatomic) CGFloat waveWidth;
 @property (nonatomic) CGFloat waveMid;
 @property (nonatomic) CGFloat maxAmplitude;
+@property (nonatomic, strong) CADisplayLink* displaylink;
 
 @end
 
